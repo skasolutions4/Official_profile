@@ -1,0 +1,96 @@
+:root {
+    --primary-bgclr: #8AD6D1;
+    --second-bgclr: #930031;
+    --font-clr: #E0F8C7;
+    --font-secclr: #500071;
+    --premium-bgclr: #202734;
+
+
+}
+
+.hero_card {
+    height: 250px;
+    width: 100vdh;
+    background-color: var(--primary-bgclr);
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile {
+    border-color: 3px solid var(--second-bgclr);
+    background-color: #290044;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.title {
+    text-align: center;
+    color: var(--premium-bgclr);
+    font-family: roboto;
+    font-weight: bold;
+
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 2fr));
+    justify-content: center;
+    background-color: var(--second-bgclr);
+    padding: 15px;
+    justify-self: center;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-bgclr);
+
+}
+
+i {
+    font-size: 30px;
+    /* background-color: #FFE9A9; */
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 8px;
+    color: var(--font-secclr);
+}
+i:hover {
+    /* transform: translateY(-5px); */
+    transform: rotate(20deg);
+    
+    transition: 0.25s ease;
+}
+
+.bus_details {
+    background-color: var(--premium-bgclr);
+    height: 250px;
+    color: var(--font-clr);
+    border-radius: 8px;
+
+
+}
+
+.name {
+    padding: 12px;
+    font-weight: bold;
+    font-family: roboto;
+    text-align: center;
+}
+
+.list li {
+    padding: 3px;
+}
+
+.list:hover {
+    padding: 2px;
+    background-color: var(--primary-bgclr);
+    color: var(--premium-bgclr);
+}
+hr{
+    color: white;
+    
+}
