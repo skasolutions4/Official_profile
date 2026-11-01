@@ -125,9 +125,12 @@ border-radius: 8px;
 .tagline{
     text-align: center;
     font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
 }
 .tagline1{
     text-align: center;
     font-size: 12px;
+    line-height: 15px;
 }
 
