@@ -9,13 +9,15 @@
 }
 
 .hero_card {
-    height: 250px;
+    height: auto;
     width: 100vdh;
-    background-color: var(--primary-bgclr);
+    background: linear-gradient(120deg, #D5E8E6, #FF7171) ;
     border-radius: 8px;
     display: grid;
     justify-content: center;
     align-items: center;
+    padding: 8px;
+
 
 }
 
@@ -26,12 +28,11 @@
     width: 150px;
     border-radius: 50%;
     justify-self: center;
+    margin: 18px;
 }
 
 .title {
     text-align: center;
-    color: var(--premium-bgclr);
-    font-family: roboto;
     font-weight: bold;
 
 }
@@ -47,6 +48,7 @@
     align-items: center;
     justify-content: center;
     background-color: var(--primary-bgclr);
+    gap: 15px;
 
 }
 
@@ -67,11 +69,12 @@ i:hover {
 
 .bus_details {
     background-color: var(--premium-bgclr);
-    height: 250px;
+    height: auto;
     color: var(--font-clr);
     border-radius: 8px;
-
-
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 18px;
 }
 
 .name {
@@ -82,15 +85,44 @@ i:hover {
 }
 
 .list li {
-    padding: 3px;
+    padding: 3px;    
 }
 
-.list:hover {
+
+/* .list:hover {
     padding: 2px;
     background-color: var(--primary-bgclr);
     color: var(--premium-bgclr);
-}
+} */
 hr{
     color: white;
+
+}
+.sub_title{
+    font-weight: bold;
     
 }
+.services_price{
+    text-align: center;
+    color: var(--premium-bgclr);
+    font-weight: bold;
+}
+
+.tc{
+background-color: var(--primary-bgclr);
+color: var(--font-secclr);
+padding: 8px;
+border-radius: 8px;
+}
+.title_t{
+    font-weight: bold;
+}
+.tagline{
+    text-align: center;
+    font-weight: bold;
+}
+.tagline1{
+    text-align: center;
+    font-size: 15px;
+}
+
