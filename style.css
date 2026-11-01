@@ -73,8 +73,13 @@ i:hover {
     color: var(--font-clr);
     border-radius: 8px;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     padding: 18px;
+}
+@media screen and (max-width: 400px) {
+  .bus_details {
+    grid-template-columns: 1fr;
+  }
 }
 
 .name {
@@ -85,7 +90,7 @@ i:hover {
 }
 
 .list li {
-    padding: 3px;    
+    padding: 3px;   
 }
 
 
